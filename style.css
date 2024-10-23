@@ -14,3 +14,9 @@ section{
 .chamada-texto{
     margin: 5%;
 }
+
+header{
+    margin: 5%;
+    font-size: 20px;
+    text-align: center;
+}
