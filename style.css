@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-section{
+section {
     background-color: crimson;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -11,12 +11,27 @@ section{
     justify-content: center;
 }
 
-.chamada-texto{
+.chamada-texto {
     margin: 5%;
 }
 
-header{
+header {
     margin: 5%;
     font-size: 20px;
     text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+h2 {
+    padding-left: 20px;
 }
