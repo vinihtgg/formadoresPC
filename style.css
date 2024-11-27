@@ -44,5 +44,5 @@ h2 {
 
 .categoria-videos img:hover {
     border: 5px solid rgb(93, 3, 3);
-    opacity: 2.0;
+    opacity: 1.0;
 }
