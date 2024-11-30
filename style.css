@@ -2,6 +2,8 @@ body {
     background-color: black;
     color: white;
     font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 section {
@@ -20,6 +22,8 @@ header {
     margin: 5%;
     font-size: 20px;
     text-align: center;
+    border-bottom: solid 2px rgb(42, 122, 228);
+    color: rgb(42, 122, 228);
 }
 
 img {
@@ -45,4 +49,25 @@ h2 {
 .categoria-videos img:hover {
     border: 5px solid rgb(93, 3, 3);
     opacity: 1.0;
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
