@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    background-color: crimson;
+    background-color:rgb(31, 8, 8);
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
@@ -20,10 +20,12 @@ section {
 
 header {
     margin: 5%;
-    font-size: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 36px;
     text-align: center;
-    border-bottom: solid 2px rgb(42, 122, 228);
-    color: rgb(42, 122, 228);
+    border-bottom: dotted 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -52,7 +54,7 @@ h2 {
 }
 
 .chamada {
-    background: rgb(48, 2, 2);
+    background: crimson;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -69,5 +71,5 @@ p {
 
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color: rgb(255, 255, 255);
 }
